@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<nav>
+
+</nav>
+<body>
+    <div class="outer">
+        <div class="playGrid">
+            <div class="btn-container">
+                <label id="length" style="display: none;">1</label>
+                <button class="start" onclick="start()" style="opacity:0.3;">START!</button>
+                <button class="start" onclick="stop()" style="opacity:0.3;">STOP!</button>
+            </div>
+            <div class="grid" id="grid">
+                
+            </div>
+        </div>
+        <div class="items">
+            <div class="item">
+                Grid Size <input id="gridValue" value="10">
+            </div>
+            <div class="item">
+                Speed <input id="speed" value="1">
+            </div>
+            <div class="item">
+                Blitz <input id="blitz" value="OFF">
+            </div>
+            <div class="item" style="padding:0px;">
+                <button onclick="makeGridBtnPress()">Play!</button>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+
+</footer>
+<script src="script.js"></script>
+</html>
